@@ -185,6 +185,8 @@ fisherXY(mydata$cappun,mydata$race)
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+The objective was to find if attitude towards capitol punishment is independent of race or not. The graphical results show there is no difference between the variables, since the bar graphs looked similar to each other. The numerical results showed that there was not much of a difference between the races on their attitude towards capitol punishment since the percentages were pretty similar to each other. Running the inferential results I concluded that there is no statistical significance between the data. This was confirmed using a Chi Squared test that gave a p-value of 0.5, which is high and can help see that there is no difference.
+
 Is belief in postlife (postlife) independent of belief in the big bang theory (bigbang)?
 If not, then whose view differs from whom??
 
@@ -221,4 +223,4 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-According to the ifnerential data, I can conclude that there is actually no statistically significant difference in the data. The Fisher exact test can confirm this. Since 1 is in the confidence interval, then that means that there is no difference in the data.
+According to the inferential data, I can conclude that there is actually no statistically significant difference in the data. The Fisher exact test can confirm this. Since 1 is in the confidence interval, then that means that there is no difference in the data.
