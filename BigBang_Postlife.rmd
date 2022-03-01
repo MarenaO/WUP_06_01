@@ -200,3 +200,14 @@ barchartGC(~bigbang + postlife,data=mydata, type="percent")
 
 According to the graphical data, we can assume that there is a difference between the variables. The chart on the right indicates that there are people who do not believe in the big bang theory, although most of the people believe in the afterlife. The chart on the left indicates that there are people who believe in the big bang theory and most of these people also believe in the afterlife.
 
+### Numerical Descriptive Results
+
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+table1 <- xtabs(~bigbang + postlife, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+According to the numerical data, it looks like there is a difference between the data. Although, it does not look like a dramatic difference.
